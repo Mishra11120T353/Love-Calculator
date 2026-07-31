@@ -1,14 +1,45 @@
-let yourName = prompt ("What is your name?");
-let partnerName = prompt("What is their name?");
+const btn = document.querySelector(".btn");
+const result = document.querySelector("#result");
+let message = document.querySelector("message");
 
-let loveScore = Math.floor(Math.random()*100)+1;
 
-alert(
-    yourName+" and "+partnerName+"'s love score is "+loveScore+"%"
-);
-
-if (loveScore > 80){
-    alert("Perfect Match💖");
-}else{
-    alert("Friend Zone😅");
+btn.addEventListener("click", function(){
+let name1 = document.querySelector("#yourName").value;
+let name2 = document.querySelector("#partnerName").value;
+let loveScore = Math.floor(Math.random()*100+1);
+if(loveScore>=90){
+message="perfect Match❤️";
 }
+else if (loveScore>=60){
+message="Good Match✨";
+}
+else{
+message="enemy😴";
+}
+
+result.textContent =`${name1}❤️${name2} Love Score : ${loveScore} %  ${message}`;
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
