@@ -1,23 +1,39 @@
-# Love-Calculator
-A simple Love Calculator built with HTML and JavaScript
+# ❤️ Love Calculator
 
-##Features
--Takes two names as input 
--Generataes a rondom love score 
--Uses if-else statements 
--Displays the result using alerts
+An interactive Love Calculator built using *HTML, CSS, and JavaScript (DOM Manipulation)*.
 
-##Technologies Used 
--HTML
--JavaScript 
+## ✨ Features
 
-##What I Learned
--Variables
--propmt()
--alert()
--Math.rondom()
--Math.floor()
--if-else
+- ❤️ Random Love Score Generator (1-100%)
+- 📝 User Name & Partner Name Input
+- 💖 Animated Beating Heart
+- 🎨 Beautiful Gradient UI
+- 📱 Responsive Design
+- ⚡ Instant Result using JavaScript DOM
 
-##Auther 
-Abhishek Mishra
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (DOM)
+
+## 📸 Preview
+
+Enter two names and click *Calculate ❤️* to generate a random love score with a fun relationship message.
+
+## 🚀 Live Demo
+
+(Add your GitHub Pages link here)
+
+## 📂 Project Structure
+
+
+LoveCalculator/
+│── index.html
+│── style.css
+│── script.js
+
+
+## 👨‍💻 Author
+
+*Abhishek Mishra*
